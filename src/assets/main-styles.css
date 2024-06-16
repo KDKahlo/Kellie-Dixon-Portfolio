@@ -1,3 +1,11 @@
+/* Ensure full height for html and body */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 * {
   box-sizing: border-box;
   color: var(--main-text-color);
@@ -25,10 +33,12 @@
   --skills-btn: rgb(255, 255, 255);
 }
 
+body {
+  background-color: var(--main-background);
+}
+
 .app-container {
   background-color: var(--main-background);
-  /* display: flex;
-  flex-direction: column; */
   display: grid;
   grid-template-areas:
     'admin-access'
@@ -37,6 +47,7 @@
     'about-me'
     'projects';
   margin: auto;
+  min-height: 100vh; /* Ensure it takes full height of the viewport */
 }
 
 @media only screen and (min-width: 900px) and (orientation: landscape) {
@@ -63,6 +74,7 @@
   .download-cv-button {
     align-self: center;
     margin-top: 4.5rem;
+    margin-left: 25rem;
   }
 
   .projects-section {
