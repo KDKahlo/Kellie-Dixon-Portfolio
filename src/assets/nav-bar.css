@@ -1,0 +1,26 @@
+.nav-bar {
+  background-color: var(--main-background);
+  display: flex;
+  flex-direction: row nowrap;
+  grid-area: nav-bar;
+  justify-content: space-between;
+  padding: 1.5rem 2.5rem;
+  width: 100%;
+}
+
+
+
+.social-media-contact {
+  align-items: center;
+  display: flex;
+  flex-direction: row nowrap;
+  list-style: none;
+}
+
+.social-media-contact li {
+  cursor: pointer;
+}
+
+.linkedin-logo {
+  margin: 0 1rem;
+}

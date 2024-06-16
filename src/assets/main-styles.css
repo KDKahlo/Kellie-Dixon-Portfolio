@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  color: var(--main-text-color);
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+
+  /* Background */
+  --main-background: #120366;
+
+  /* Fonts */
+  --main-text-color: white;
+  --text-light-grey: #d1d1d1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+
+  /* Other colors */
+  --shade-1: #3c2bd8;
+  --shade-2: #3092e2;
+  --shade-3: #3c2bd8;
+  --shade-4: #5285f8;
+  --shade-5: #7eb3e6;
+  --shade-6: #68e7c2;
+  --shade-7: #93f8b3;
+  --skills-btn: rgb(255, 255, 255);
+}
+
+.app-container {
+  background-color: var(--main-background);
+  /* display: flex;
+  flex-direction: column; */
+  display: grid;
+  grid-template-areas:
+    'admin-access'
+    'add-new-project'
+    'nav-bar'
+    'about-me'
+    'projects';
+  margin: auto;
+}
+
+@media only screen and (min-width: 900px) and (orientation: landscape) {
+  .app-container {
+    grid-template-areas:
+      'nav-bar nav-bar'
+      'about-me projects'
+      'admin-access admin-access'
+      'add-new-project add-new-project';
+    grid-template-columns: 1fr 1.25fr;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .nav-bar {
+    height: 6rem;
+    padding: 1.5rem 7rem;
+  }
+
+  .about-me {
+    margin: 0;
+  }
+
+  .download-cv-button {
+    align-self: center;
+    margin-top: 4.5rem;
+  }
+
+  .projects-section {
+    padding-left: 7rem;
+    max-height: 75vh;
+    overflow-y: auto;
+  }
+
+  .project-description {
+    font-size: 2rem;
+    margin: 6rem 0;
+  }
+
+  .project-description span {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .project-skills li {
+    font-size: 1.6rem;
+  }
+
+  .project-skills li span {
+    font-size: 1.6rem;
+  }
+
+  /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: var(--shade-3) rgba(209, 209, 209, 0.3);
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: rgba(209, 209, 209, 0.1);
+    border-radius: 2rem;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--shade-3);
+    border-radius: 2rem;
+    border: none;
+  }
+}
