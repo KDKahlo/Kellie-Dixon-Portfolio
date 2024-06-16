@@ -8,7 +8,7 @@
     <p class="about-me-text">
       Full Stack Developer 👩‍💻| Multilingual US Citizen living and eligible to work in Germany |
       Leveraging Educational Expertise to Drive Tech Innovation 📚 | Passionate about Learning and
-      Teachnology Integration| Open to All Full Stack Opportunies with a Long-term Goal in EdTech 🎮
+      Technology Integration | Open to All Full Stack Opportunies with a Long-term Goal in EdTech 🎮
       | Embracing New Possibilities of Remote or Hybrid Collaboration Worldwide 🌎
     </p>
     <p class="about-me-text">
@@ -23,8 +23,9 @@
       <span class="white-highlight">Fullstack Bootcamp at CodeOp</span>, which deepened my interest
       in backend development and sparked numerous app ideas. I'll be starting
       <span class="white-highlight">AWS Cloud training</span>
-      in July and am excited about joining a team where I can grow and contribute as a full-stack
-      developer. I'm particularly interested in roles that align with my long-term goal of advancing
+      in July 2024 and am excited about joining a team where I can grow and contribute as a
+      full-stack developer. I'm particularly interested in roles that align with my long-term goal
+      of advancing
       <span class="white-highlight">EdTech</span>, but I am open to exploring all full stack
       opportunities.
     </p>
