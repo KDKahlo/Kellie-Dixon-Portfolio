@@ -21,9 +21,7 @@
     </div>
     <button
       class="add-new-project-btn"
-      @click.prevent="
-        portfolio.addNewProject(title, repository, description, skills)
-      "
+      @click.prevent="portfolio.addNewProject(title, repository, description, skills)"
     >
       Add Project
     </button>
@@ -31,20 +29,16 @@
 </template>
 
 <script>
-import '../assets/main-styles.css';
-import '../assets/add-new-project.css';
-import portfolioJudithSanchez from '../portfolio-info';
-import SkillSetBtn from './SkillSetBtn.vue';
+import '../assets/main-styles.css'
+import '../assets/add-new-project.css'
+import portfolioKellieDixon from '../portfolio-info'
 
 export default {
-  components: {
-    'skill-set-btn': SkillSetBtn,
-  },
   props: {
     authenticated: {
       type: Boolean,
-      required: true,
-    },
+      required: true
+    }
   },
   data() {
     return {
@@ -52,13 +46,13 @@ export default {
       repository: '',
       description: '',
       skills: [],
-      portfolio: portfolioJudithSanchez,
-    };
+      portfolio: portfolioKellieDixon
+    }
   },
   methods: {
     addSkillset(skill) {
-      this.skills.push(skill);
-    },
-  },
-};
+      this.skills.push(skill)
+    }
+  }
+}
 </script>
