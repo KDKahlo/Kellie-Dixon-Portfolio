@@ -6,7 +6,7 @@
       I am a <span class="job-title">{{ jobTitle }}</span>
     </h1>
     <p class="about-me-text">
-      Full Stack Developer 🚀 | Multilingual US Citizen living and eligible to work in Germany 🇪🇺 |
+      Full Stack Developer 👩‍💻| Multilingual US Citizen living and eligible to work in Germany |
       Leveraging Educational Expertise to Drive Tech Innovation 📚 | Passionate about Learning and
       Teachnology Integration| Open to All Full Stack Opportunies with a Long-term Goal in EdTech 🎮
       | Embracing New Possibilities of Remote or Hybrid Collaboration Worldwide 🌎
