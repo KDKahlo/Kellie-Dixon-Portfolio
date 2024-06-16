@@ -2,7 +2,7 @@
 
 🎥 Preview
 
-🚀 Live
+
 
 This project is a web application that showcases a personal portfolio and projects section. It features a responsive navigation bar, an about me section, and a projects section to display different projects. 
 
