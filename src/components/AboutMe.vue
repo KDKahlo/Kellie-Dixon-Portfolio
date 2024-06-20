@@ -3,6 +3,7 @@
     <p class="first-line">Hello! My name is</p>
     <h2 class="second-line" @click="incrementCounter">{{ firstName }} {{ lastName }}</h2>
     <h1 class="third-line">
+      <img :src="image" :alt="alt" />
       I am a <span class="job-title">{{ jobTitle }}</span>
     </h1>
     <p class="about-me-text">

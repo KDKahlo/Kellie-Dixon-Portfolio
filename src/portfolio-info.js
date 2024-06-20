@@ -15,6 +15,7 @@ class Portfolio {
     const project = {
       title,
       repository,
+      image,
       description,
       skillsApplied: []
     }
@@ -69,7 +70,6 @@ const portfolioKellieDixon = new Portfolio({
       title: 'My Portfolio',
       repository: 'github.com/KDKahlo/Kellie-Dixon-Portfolio',
       livePreview: '',
-      liveVersion: '',
       description:
         '<span class="highlight1">My own portfolio.</span> I thought that if I was going to showcase my work, what better way than to <span class="highlight2"> build it with Vue.</span>',
       skillsApplied: ['Vue.js', 'HTML', 'CSS']
@@ -78,6 +78,7 @@ const portfolioKellieDixon = new Portfolio({
     {
       title: 'AleYea CraftbeerMe! (MVP - Bootcamp)',
       repository: 'github.com/KDKahlo/Ale-Yea-MVP',
+      image: '../assets/AleYeaImage.png',
       livePreview: '',
       liveVersion: '',
       description:

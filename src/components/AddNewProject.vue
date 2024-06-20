@@ -1,5 +1,5 @@
 <template>
-  <form class="add-new-project-form" v-if="authenticated">
+  <form class="add-new-project-form">
     <h3>Add New Project</h3>
     <div class="add-new-project-title">
       <h4>Title:</h4>
@@ -8,6 +8,10 @@
     <div class="add-new-project-repository">
       <h4>repository:</h4>
       <input type="text" v-model="repository" />
+    </div>
+    <div class="add-new-project-snapshot">
+      <h4>Snapshot:</h4>
+      <input type="img" v-model="repository" />
     </div>
     <div class="add-new-project-description">
       <h4>Description:</h4>
